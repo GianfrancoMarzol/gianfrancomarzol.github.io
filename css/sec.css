@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS document */
+body{
+  margin-top: 10px;
+  background-image: linear-gradient(to bottom, gray, silver );
+}
+
+.sec{
+  margin: auto;
+  margin-top: 200px;
+  height: 800px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 80px;
+}
+.sec .field{
+  width: 50%;
+  padding: ;
+  margin: auto;
+  margin-top: 20px;
+  color: black;
+  box-shadow: 0px 0px 15px 2px white;
+  font-family:
+}
+
+.sec #p{
+  width: 100%;
+  text-align: center;
+}
+
+.sec div{
+  width: 100%;
+  padding: 15px;
+}
+
+.sec label{
+  float: left;
+}
+
+.sec input{
+  float: right;
+  width: 60%;
+  margin-right: 30px;
+  padding: 5px;
+  margin-top: -5px;
+}
+
+.sec #boton{
+  width: 100%;
+  text-align: center;
+  margin-left: -15px;
+  margin-top: 15px;
+}
+
+.sec #boton input{
+  float: none;
+  margin: auto;
+  width: 30%;
+  color: white;
+  background-image: linear-gradient(to bottom, silver, black);
+  box-shadow: 1px 1px black;
+}
+
+.sec #boton a, .sec p{
+  color: black;
+  margin-top: 20px;
+}
+
+.sec select{
+    width: 62.3%;
+    float: right;
+    margin-right: 30px;
+    padding: 3px;
+    margin-top: -1px;
+  }
+
+  .sec .sex{
+    width: 100%;
+    padding: 5px;
+  }
+
+  .sec .sex #fem{
+    margin-left: 189px;
+    margin-top: -8px;
+  }
+
+  .sec .sex #mas{
+    margin-left: 189px;
+  }
+
+  .sec .sex #radio{
+    margin-top: -15px;
+  }
+
+  @media screen and (max-width:940px){
+    .sec .field{
+      width: 70%;
+    }
+    .sec input{
+      width: 50%;
+    }
+    .sec select{
+      width: 52.4%;
+    }
+    .sec .sex #fem{
+      float: right;
+      margin-right: 200px;
+    }
+
+    .sec .sex #mas{
+      float: right;
+      margin-right: 200px;
+    }
+  }
+
+    @media screen and (max-width:730px){
+      .sec .field{
+        margin-top: -100px;
+        width: 90%;
+      }
+      .sec label{
+        margin-top: 5px;
+      }
+      .sec input{
+        width: 40%;
+      }
+      .sec select{
+        width: 43%;
+      }
+      h1{
+        font-size: 30px;
+      }
+      .sec .sex #fem{
+        margin-right: 38%;
+        margin-top: -10px;
+      }
+      .sec .sex #mas{
+        margin-right: 38%;
+      }
+      .sec #boton input{
+        width: 40%;
+      }
+    }
+
+    @media screen and (max-width:500px){
+      .sec .field{
+      width: 90%;
+      }
+      .sec input{
+      width: 30%;
+      }
+      .sec select{
+        width: 34.2%;
+      }
+      .sec .sex #radio{
+        margin-top: -20px;
+      }
+    .sec .sex #fem{
+      margin-right: 28%;
+      margin-top: -20px;
+    }
+    .sec .sex #mas{
+      margin-right: 28%;
+      margin-top: -2px;
+    }
+    }

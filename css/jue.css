@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS document */
+
+.desc{
+  width: 28%;
+  margin-top: 100px;
+  margin-left: 50px;
+  box-shadow: 1px 1px 15px 2px black;
+}
+
+.desc #imagen{
+  width: 100%;
+  height: 380px;
+}
+
+#imagen img{
+  width: 100%;
+  height: 100%;
+}
+
+.desc dl, #trailer iframe{
+  width: 100%;
+}
+
+.desc dt{
+  padding: 10px;
+}
+
+.desc dd{
+  float: right;
+  margin-top: -28px;
+  margin-right: 10px;
+}
+
+#i{
+  background-color: silver;
+}
+
+.descripcion{
+  margin-top: -570px;
+  width: 60%;
+  /*margin-left: 450px;*/
+  float: right;
+  margin-right: 50px;
+  font-size: 18px;
+  background-color: silver;
+  height: 570px;
+  box-shadow: 1px 1px 15px 2px black;
+  overflow:scroll;
+}
+
+.descripcion dt, #name, #compra p, #fotos p{
+  height: 30px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.descripcion dd{
+  padding: 10px;
+}
+
+#trailer{
+  margin-top: 50px;
+  width: 55%;
+  margin-left: 50px;
+  height: 355px;
+  background-color: gray;
+  box-shadow: 1px 1px 15px 2px black;
+}
+
+#compra{
+  width: 34%;
+  /*margin-left: 780px;*/
+  float: right;
+  margin-right: 50px;
+  border: solid 1px black;
+  margin-top: -355px;
+  height: 355px;
+  box-shadow: 1px 1px 15px 2px black;
+}
+
+#fotos{
+  width: 92%;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 50px;
+  display: inline-block;
+  box-shadow: 1px 1px 15px 2px black;
+}
+#fotos div{
+  width: 33.33%;
+  height: 46.7%;
+  position: static;
+  float: left;
+  box-sizing: border-box;
+}
+
+#fotos img{
+  width: 100%;
+  height: 100%;
+}
+#fotos #m{
+  border-left: 1px solid silver;
+}
+#fotos .u{
+  border-top: 1px solid silver;
+}
+
+@media screen and (max-width:940px){
+  .desc{
+    width: 25%;
+  }
+
+  .desc #imagen{
+    width: 100%;
+    height: 250px;
+  }
+
+  .descripcion{
+    margin-top: -433px;
+    width:60%;
+    font-size: 14px;
+    height: auto;
+  }
+  #trailer{
+    width: 45%;
+  }
+  .descripcion dt, #name, #compra p, #fotos p{
+    font-size: 15px;
+  }
+  #fotos{
+    height: 400px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width:700px){
+  .desc{
+    width:70%;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .desc #imagen{
+    width: 100%;
+    height: 250px;
+  }
+
+  .descripcion{
+    float: none;
+    margin: auto;
+    margin-top: 50px;
+    width:70%;
+    font-size: 14px;
+  }
+  #trailer{
+    width: 70%;
+    float: none;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .descripcion dt, #name, #compra p, #fotos p{
+    font-size: 15px;
+  }
+  #compra{
+    width: 70%;
+    float: none;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #fotos{
+    height: 400px;
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/sop.css">
+    <meta name="description" content="ProGame">
+    <meta name="keywords" content="Juegos">
+    <title>ProGame</title>
+  </head>
+  <body>
+    <div class="barra">
+      <div>
+        <a id="cat" href="index.html"> <img src="images/logo.jpg" title=""/></a>
+      </div>
+      <nav class="nav">
+  			<ul class="navegacion">
+          <li><a href="">Comunidad</a>
+            <ul>
+              <li id="mmo"><a href="https://www.facebook.com/groups/2293634877328286/" target="_blank">Facebook</a></li>
+              <li><a href="https://twitter.com/progamejuegos" target="_blank">Twitter</a></li>
+            </ul>
+          </li>
+          <li><a href="">Cuenta</a>
+            <ul>
+              <li id="mmo"><a href="inicios.html">Inicio de sesión</a></li>
+              <li><a href="cuenta.html">Crear cuenta</a></li>
+            </ul>
+          </li>
+  				<li><a href="soporte.html">Soporte</a></li>
+        </ul>
+      </nav>
+		</div>
+    <div class="navsec">
+      <ul class="subnav">
+        <li><a href="accion.html">Acción</a></li>
+        <li><a href="aventura.html">Aventura</a></li>
+        <li><a href="deportes.html">Deportes</a></li>
+        <li><a href="estrategia.html">Estrategia</a></li>
+        <li><a href="mmo.html">MMO</a></li>
+        <li><a href="vehiculos.html">Vehículos</a></li>
+      </ul>
+    </div>
+    <h1> Déjanos tu mensaje porfavor! </h1>
+    <section class="sec">
+      <form action="index.html" method="post">
+        <div class="field">
+          <p id="p">*Todos los campos son obligatorios*</p>
+          <div>
+            <label for="name">Nombre: </label>
+            <input type="name" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="edad">Edad: </label>
+            <input type="number" id="edad" name="edad" min="15" required>
+          </div>
+          <div>
+            <label for="email">Correo electrónico: </label>
+            <input class="in" type="email" id="email" name="email" pattern=".+\.com" required>
+          </div>
+          <div>
+            <label for="direccion">Introduzca su mensaje:</label>
+            <textarea cols="84" rows="20" id="direccion" name="direccion"> </textarea>
+          </div>
+          <div id="boton">
+            <input type="reset" value="Resetear datos">
+            <input type="submit" value="Enviar">
+          </div>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <small>
+        <p><strong>Gianfranco Marzol</strong></p>
+        <p>gianfrancomarzol96@gmail.com</p>
+        <address>Tel:093788049</address>
+      </small>
+    </footer>
+  </body>
+</html>

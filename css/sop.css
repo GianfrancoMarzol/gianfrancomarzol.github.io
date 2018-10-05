@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS document */
+body{
+  margin-top: 10px;
+  background-image: linear-gradient(to bottom, gray, silver );
+}
+
+.sec{
+  margin: auto;
+  margin-top: 200px;
+  height: 900px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 80px;
+}
+.sec .field{
+  width: 50%;
+  padding: ;
+  margin: auto;
+  margin-top: 20px;
+  color: black;
+  box-shadow: 0px 0px 15px 2px white;
+}
+
+.sec #p{
+  width: 100%;
+  text-align: center;
+}
+
+.sec div{
+  width: 100%;
+  padding: 15px;
+
+}
+
+.sec label{
+  float: left;
+  padding: 5px;
+}
+
+.sec input{
+  float: right;
+  width: 60%;
+  margin-right: 30px;
+  padding: 5px;
+}
+
+.sec textarea{
+  margin-top: 5px;
+  width: 95%;
+}
+
+.sec #boton{
+  width: 100%;
+  text-align: center;
+  margin-left: -15px;
+}
+.sec #boton input{
+  float: none;
+  margin: auto;
+  width: 30%;
+  color: white;
+  background-image: linear-gradient(to bottom, silver, black);
+  box-shadow: 1px 1px black;
+}
+
+@media screen and (max-width:940px){
+  .sec .field{
+    width: 70%;
+  }
+  .sec input{
+    width: 50%;
+  }
+}
+@media screen and (max-width:700px){
+  .sec .field{
+    margin-top: -100px;
+    width: 80%;
+  }
+  .sec input{
+    width: 40%;
+  }
+  h1{
+    font-size: 30px;
+  }
+}
+.sec #boton input{
+  width: 40%;
+}
+@media screen and (max-width:500px){
+  .sec .field{
+    width: 90%;
+  }
+  .sec input{
+    width: 30%;
+  }
+}

@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS document */
+
+body{
+  margin-top: 10px;
+  background-image: linear-gradient(to bottom, black, black);
+}
+
+.sec{
+  margin: auto;
+  margin-top: 300px;
+  height: 800px;
+}
+
+.sec h1{
+  margin: auto;
+  text-align: center;
+}
+
+.sec .field{
+  width: 50%;
+  padding: ;
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+  box-shadow: 0px 0px 15px 2px white;
+}
+
+.sec #p{
+  width: 100%;
+  text-align: center;
+}
+
+.sec div{
+  width: 100%;
+  padding: 15px;
+}
+.sec label{
+  float: left;
+  padding: 5px;
+}
+
+.sec input{
+  float: right;
+  width: 60%;
+  margin-right: 30px;
+  padding: 5px;
+}
+
+.sec select{
+    width: 63%;
+    float: right;
+    margin-right: 30px;
+    padding: 4px;
+  }
+
+.sec .sex{
+  width: 100%;
+  padding: 0px;
+}
+
+.sec .sex #fem{
+  margin-left: 189px;
+  margin-top: -4px;
+}
+
+.sec .sex #mas{
+  margin-left: 189px;
+}
+
+.sec .sex #radio{
+  margin-top: -15px;
+}
+
+.sec #boton{
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  height: 40px;
+}
+
+.sec #boton input{
+  float: none;
+  margin: auto;
+  width: 30%;
+  color: white;
+  background-image: linear-gradient(to bottom, silver, black);
+  box-shadow: 1px 1px black;
+}
+
+.sec #boton a{
+  color: white;
+}
