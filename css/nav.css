@@ -434,12 +434,14 @@ body footer{
     .Novedades{
       margin-top: 5700px;
     }
+    .Novedades: li{
+      overflow: scroll;
+    }
     .Novedades ul li img{
       width: 30%;
     }
     .Novedades ul li p, .Novedades ul li h3{
       margin-left: 150px;
-      overflow: scroll;
     }
   }
 }
