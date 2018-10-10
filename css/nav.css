@@ -439,7 +439,7 @@ body footer{
     }
     .Novedades ul li p, .Novedades ul li h3{
       margin-left: 150px;
-      overflow: auto;
+      overflow: scroll;
     }
   }
 }
