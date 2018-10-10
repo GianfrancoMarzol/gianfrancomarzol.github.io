@@ -325,9 +325,8 @@ body footer{
       margin: 4px;;
     }
     .Novedades{
-      margin-top: -100px;
-      margin-left: 0px;
-      width: 100%;
+      margin: auto;
+      width: 99%;
     }
     .Novedades ul li img{
       width: 20%;
@@ -389,8 +388,18 @@ body footer{
     }
   }
   @media screen and (max-width:500px){
+    body{
+      box-shadow: none;
+      width: 100%;
+    }
+    #cat img{
+      margin-left: 10%;
+    }
     .nav{
-      margin-left: 100px;
+      margin-left: 20%;
+    }
+    .nav{
+      width: 80%;
     }
     .navegacion > li {
       float:left;
@@ -410,25 +419,27 @@ body footer{
       font-size: 12px;
     }
     #populares li{
-      margin: 20px;
-      width: 90%;
+      margin-left: 3%;
+      margin-right: 5%;
+      width: 92%;
       height: 20%;
       font-size: 30px;
     }
     .Ventas h4, .Ventas h5{
-      font-size: 30px;
+      font-size: 20px;
     }
     .Ventas ul li img{
       height: 65%;
     }
     .Novedades{
-      margin-top: 6100px;
+      margin-top: 5700px;
     }
     .Novedades ul li img{
       width: 30%;
     }
     .Novedades ul li p, .Novedades ul li h3{
       margin-left: 150px;
+      overflow: auto;
     }
   }
 }
