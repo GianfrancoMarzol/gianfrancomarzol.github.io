@@ -137,9 +137,9 @@
   }
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:500px){
   .desc{
-    width:70%;
+    width:100%;
     margin: auto;
     margin-top: 100px;
   }
@@ -153,11 +153,12 @@
     float: none;
     margin: auto;
     margin-top: 50px;
-    width:70%;
+    width:100%;
     font-size: 14px;
+    height: auto;
   }
   #trailer{
-    width: 70%;
+    width: 100%;
     float: none;
     margin: auto;
     margin-top: 50px;
@@ -166,13 +167,13 @@
     font-size: 15px;
   }
   #compra{
-    width: 70%;
+    width: 100%;
     float: none;
     margin: auto;
     margin-top: 50px;
   }
   #fotos{
-    height: 400px;
+    height: 300px;
     width: 100%;
     float: none;
     margin: auto;
